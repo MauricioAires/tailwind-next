@@ -51,10 +51,14 @@ export default function Home() {
             </label>
             <div className="grid grid-cols-2 gap-6">
               <Input.Root>
-                <Input.Control id="firstName" defaultValue="Mauricio" />
+                <Input.Control
+                  id="firstName"
+                  defaultValue="Mauricio"
+                  placeholder="Name"
+                />
               </Input.Root>
               <Input.Root>
-                <Input.Control defaultValue="Aires" />
+                <Input.Control defaultValue="Aires" placeholder="Last name" />
               </Input.Root>
             </div>
           </div>

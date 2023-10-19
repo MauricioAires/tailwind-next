@@ -11,7 +11,7 @@ export interface SelectProps extends RSelect.SelectProps {
 export function Select({ children, placeholder, ...props }: SelectProps) {
   return (
     <RSelect.Root {...props}>
-      <RSelect.Trigger className="flex h-11 w-full items-center justify-between gap-2 rounded-lg border border-zinc-300 px-3 py-2 shadow-sm  data-[placeholder]:text-zinc-500">
+      <RSelect.Trigger className="flex h-11 w-full items-center justify-between gap-2 rounded-lg border border-zinc-300 px-3 py-2 shadow-sm  outline-none focus:border-violet-300 focus:ring-2 focus:ring-violet-100 data-[placeholder]:text-zinc-500">
         <RSelect.Value className="text-black" placeholder={placeholder} />
         <RSelect.Icon>
           <ChevronDown className="h-5 w-5 text-zinc-500" />

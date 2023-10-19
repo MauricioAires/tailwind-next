@@ -11,10 +11,12 @@ export interface TabItemProps {
 export function TabItem({ title, isSelected = false }: TabItemProps) {
   return (
     <RTabs.Trigger
-      className="relative px-1 pb-4 text-sm font-medium text-zinc-500 hover:text-violet-700 data-[state=active]:text-violet-700"
+      className="group relative px-1 pb-4 text-sm font-medium text-zinc-500 outline-none hover:text-violet-700 data-[state=active]:text-violet-700"
       value={title}
     >
-      {title}
+      <span className="truncate rounded group-focus-visible:ring-2  group-focus-visible:ring-violet-400  group-focus-visible:ring-offset-4">
+        {title}
+      </span>
 
       {isSelected && (
         <motion.div
