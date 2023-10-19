@@ -8,6 +8,7 @@ Tailwind CSS, um framework de CSS focado em utilities. O Tailwind utiliza o conc
 
 - [Tailwindcss](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/)
+- [Auto Animate](https://auto-animate.formkit.com/)
 - [Tiptap](https://tiptap.dev/)
 - [Transform Tools](https://transform.tools/)
   _Converter SVG em componentes TSX_
