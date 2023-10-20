@@ -7,6 +7,7 @@ Tailwind CSS, um framework de CSS focado em utilities. O Tailwind utiliza o conc
 ## Tecnologias
 
 - [Tailwindcss](https://tailwindcss.com/)
+- [tailwind Merge](https://github.com/dcastil/tailwind-merge)
 - [Tailwind Variants](https://www.tailwind-variants.org/)
 - [Framer Motion](https://www.framer.com/)
 - [Auto Animate](https://auto-animate.formkit.com/)
