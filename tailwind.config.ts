@@ -2,6 +2,8 @@ import type { Config } from 'tailwindcss'
 
 const config: Config = {
   content: ['./src/**/*.tsx'],
+
+  darkMode: 'class',
   theme: {
     extend: {
       gridTemplateColumns: {
